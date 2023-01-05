@@ -1,0 +1,179 @@
+@font-face {
+  font-family: benBold;
+  src: url(fonts/benzin-bold.ttf);
+}
+@font-face {
+  font-family: benRegular;
+  src: url(fonts/benzin-regular.ttf);
+}
+
+
+#action {
+  padding-top: 70px !important;
+}
+.select.ui.grid{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.materialTitle{
+  color: #CDD84A !important;
+  text-rendering: optimizeLegibility;
+  font-family: benRegular;
+
+
+}
+.column {
+
+  margin: 50px;
+}
+#material{
+  border-radius: 5px;
+  width: 200px;
+
+
+}
+.thicknessTitle{
+  color: #CDD84A;
+  text-rendering: optimizeLegibility;
+  font-family: benRegular;
+
+}
+#thicknesss {
+  width: 200px;
+  border-radius: 5px !important;
+  border-radius: 20px;
+}
+.field{
+  padding: 20px;
+}
+#saveBtn{
+  font-size: 16px;
+  border-radius: 4px !important;
+  margin-left: 60px;
+  
+  
+}
+
+
+
+.lists{
+  border-radius: 50px;
+  /* background-color: #CDD84A; */
+  justify-content: left;
+  align-items: flex-start;
+  padding: 10px 0px;
+  margin: 20px;
+  border-radius: 20px;
+  height: 50% !important;
+  min-height: 200px;
+  color: #CDD84A;
+}
+.lists h3{
+  font-family: benRegular;
+}
+.lists p{
+  font-size: 17px;
+  color: #000;
+  font-weight: 700;
+  margin:20px
+}
+
+
+
+.noproduct{
+  color: red ;
+
+}
+
+#products {
+  padding: 15px !important;
+ 
+  border-radius: 20px;
+  margin: 20px;
+
+}
+#products h3{
+  color: #CDD84A;
+  font-family: benRegular;
+}
+#products  p{
+  font-family: inherit !important;
+  margin: 0px !important;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray !important;
+  font-family: benRegular !important;
+  
+
+}
+
+#lists p{
+  font-family: benRegular;
+  color: gray !important;
+  
+}
+
+
+
+.solid{
+  color: #CDD84A;
+}
+
+.productCategory{
+  font-family: benRegular;
+  color: rgb(175, 175, 175);
+  font-weight: 200 !important;
+}
+
+#productCard .description p{
+font-family: benRegular;
+color: #fff !important;
+font-weight: 200 !important;
+}
+
+#productCard .productHeader{
+    font-family: benBold;
+    color: #CDD84A;
+    font-size: 15px;
+  }
+
+#productCard{
+  border-bottom: solid 3px #CDD84A !important;
+
+  background-color: #404040;
+}
+#productCard:hover{
+  
+  
+  transition-timing-function: ease-in-out;
+transition-duration: 450ms;
+  transition-property: background-color;
+  background-color: #666666;
+}
+
+.ui.card{
+  box-shadow: none !important;
+}
+
+#productCard #actionButton{
+  font-family: benRegular !important;
+  color: #CDD84A;
+}
+
+ #actionButton:hover{
+  /* color: #656b24; */
+  transition-timing-function: ease-in-out !important;
+transition-duration: 200ms !important;
+  transition-property: color !important;
+  color: #a0aa38 !important;
+}
+
+
+
+
+
+#p{
+  font-family: benRegular;
+  
+}

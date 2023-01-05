@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIFF</title>
+    <link rel="stylesheet"  href="./semantic.css" />
+    <link rel="stylesheet"  href="./list.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="./list.js"></script>
+    
+  </head>
+  <body style="background-color: black;">
+           
+    <div class="select ui grid">
+      <div class="ui grid">
+        <div class="ui form">
+        <div class="ui grid">
+          <div class="four column centered row">
+            <div class="column">
+              <div class="field">
+                <h1 class="materialTitle">MATERYAL</h1>
+                
+                <select class="ui dropdown" id="material">
+                  <i class="angle down icon"></i>
+                  <option value="DKP">DKP</option>
+                  <option value="GALVANİZLİ ÇELİK">GALVANİZLİ ÇELİK</option>
+                  <option value="PASLANMAZ ÇELİK">PASLANMAZ ÇELİK</option>
+                  <option value="ALÜMİNYUM">ALÜMİNYUM</option>
+                </select>
+              </div>
+            </div>
+            <div class="column ">
+              <div class="field">
+                <h1 class="thicknessTitle">KALINLIK</h1>
+                
+                
+                <select class="ui dropdown" id="thicknesss">
+                  <i class="angle down icon"></i>
+                  <option value="0.5">0.5</option>
+                  <option value="0.8">0.8</option>
+                  <option value="1.00">1</option>
+                  <option value="1.5">1.5</option>
+                  <option value="2.00">2</option>
+                  <option value="2.5">2.5</option>
+                  <option value="3.00">3</option>
+                  <option value="4.00">4</option>
+                  <option value="5.00">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="column">
+              <div id="action" class="ui buttons">
+                
+                <input id="saveBtn"class="ui inverted olive button"type="submit"value="Arama"onclick="getData()"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+ 
+
+  
+  <hr class="solid">
+  <div id="div" class="ui grid" style="width: 100%; justify-content: center">
+    <div id="lists" class="lists six wide column">
+      <h3 >MATERYAL BİLGİLERİ</h3> 
+
+      <p>
+        <i id="im">Materyal bilgileri için lütfen bir arama yapınız..</i>
+      </p>
+    </div>
+    
+    
+    <div id="products" class="six wide column">
+      <h3>ÖNERİLEN ÜRÜNLER</h3> 
+     
+      <p >
+        <i id="p">Önerilen ürünler için lütfen bir arama yapınız..</i>
+      </p>
+    </div>
+  </div>
+  
+
+  
+</body>
+  </html>
+  
